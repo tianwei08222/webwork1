@@ -1,0 +1,71 @@
+.w_main_left {
+    font: 12px "宋体", Arial, Helvetica, sans-serif;
+    color: #756F71;
+}
+.c_titile {
+    font-size: 22px;
+    margin: 20px 0;
+    text-align: center;
+    color: #c81b3d;
+	font-weight: bold;
+}
+.box_c {
+    border: #ccc 1px dashed;
+    text-align: center;
+    padding: 5px 0;
+    margin-right: 30px;
+    color: #999;
+}
+.box_c span {
+    margin: 0 10px;
+}
+.box_c span a {
+    color: #099;
+}
+.blogitem {
+    width: 730px;
+    background: #fff;
+    float: right;
+}
+.blogitem article {
+    border-bottom: #F4F3EF 40px solid;
+}
+.title {
+    background: url(../img/titlebg.png) no-repeat 5% 80%;
+    font-size: 20px;
+    line-height: 28px;
+    display: inline-block;
+    padding: 0px 60px 8px 80px;
+    border-bottom: 1px solid #e2e2e2;
+    width: 100%;
+}
+.title a {
+    color: #ff8908;
+}
+.title a:hover {
+    padding: 20px
+}
+.text {
+    font-size: 14px;
+    padding: 20px 40px;
+}
+.text p {
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.textimg {
+    text-align: center;
+}
+.textimg img {
+    max-width: 500px;
+    width:expression(document.body.clientWidth > 500? "500px": "auto" );
+}
+.textfoot {
+    padding: 20px 60px;
+    border-top: 1px solid #dddcdb;
+    text-align: right;
+    box-shadow: #999 2px 2px 3px;
+}
+.textfoot a {
+    margin-left: 10px;
+}
